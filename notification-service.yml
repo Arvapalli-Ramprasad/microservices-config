@@ -1,0 +1,47 @@
+spring:
+
+  mail:
+    # =========================
+    # SMTP - Sending Emails
+    # =========================
+    host: smtp.gmail.com
+    port: 587
+    username: rameidiko45@gmail.com
+    password: hlwk atta ufvk cnrn
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+# =========================
+# IMAPS - Reading Emails
+# =========================
+mail:
+  store:
+    protocol: imaps
+
+  imaps:
+    host: imap.gmail.com
+    port: 993
+    ssl:
+      enable: true
+
+
+# =========================
+# Eureka
+# =========================
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+
+# =========================
+# Server
+# =========================
+server:
+  port: 8094
