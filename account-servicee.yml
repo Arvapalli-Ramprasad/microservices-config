@@ -18,7 +18,7 @@ logging:
     org.example.accountservice: DEBUG
 
 app:
-  message: hi i am ram prasad
+  message: hi i am ram prasad arvapalli
 
 
 
