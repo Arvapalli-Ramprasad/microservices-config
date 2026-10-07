@@ -17,6 +17,9 @@ logging:
   level:
     org.example.accountservice: DEBUG
 
+app:
+  message: hi i am ram
+
 #eureka:
 #  client:
 #    service-url:
