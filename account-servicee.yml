@@ -20,6 +20,8 @@ logging:
 app:
   message: hi i am ram prasad
 
+
+
 #eureka:
 #  client:
 #    service-url:
